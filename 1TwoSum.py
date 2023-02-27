@@ -6,7 +6,7 @@ class Solution:
         dictionary = {}
 
         # Iterating through the length of the List is O(n)
-        # For each iteration, a constant amount of is done O(1)
+        # For each iteration, a constant amount of work is done O(1)
         # Overall time complexity is O(n)
         for i, num in enumerate(nums):
             difference = target - num
