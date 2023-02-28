@@ -5,7 +5,7 @@ class Solution:
 
         # Passed array length is used for sizing returned array and loop iteration
         length = len(nums)
-        # The products arra that will be returned is initialized to be the with all 1s and the same length as nums
+        # The products array that will be returned is initialized to be the with all 1s and the same length as nums
         prods = [1] * length
         # prefixProd accumulates the products of nums iteratively from the left
         prefixProd = 1
